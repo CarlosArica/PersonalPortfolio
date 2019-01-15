@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+	background: #070C12;
+	color: #fff;
+    margin: 0px 0px 0px 0px;
+}
+.filabody {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+/*iconos de redes sociales*/
+.social {
+	padding: 20px;
+	font-size: 30px;
+	width: 55px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px 0px 0px 0px;
+	border-radius: 50%;
+	position: relative;
+}
+.social:hover {
+    opacity: 0.2;
+}
+button {
+    background-color: #242A33;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 4px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+	box-shadow: 5px 8px 16px 0px rgba(0,0,0,1);
+}
+/*botón tipo 1*/
+.b1 {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color: #fff;
+}
+
+.b1:hover {
+    opacity: 0.2;
+    color: #981516;
+}
+/*botón tipo 2*/
+.b2 {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #981516;
+}
+
+.b2:hover {
+    opacity: 0.5;
+    color: #222222;
+	border-radius: 30%;
+}
+/*botón tipo 3*/
+.b3 {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #96001A;
+}
+
+.b3:hover {
+    opacity: 0.5;
+    color: #981516;
+	border-radius: 30%;
+}
+/*Secciones de la página*/
+.Sección {
+	width: 100%;
+	height: auto;
+	border: 3px solid #981516;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	display: inline
+}
+/*Cuadro flotante*/
+.contenido {
+	background-color: #070C12;
+	margin: 0% auto 0px auto;
+	border: 3px solid #891516;
+	width: 60%;
+}
+/*Cuadro flotante Certificados*/
+.contenidodocumentos {
+	background-color: #070C12;
+	margin: 0% auto 0px auto;
+	border: 3px solid #891516;
+	width: 50%;
+}
+/*página flotante*/
+.ventana {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255,144,31);
+    background-color: rgba(137,21,22,0);
+    padding-top: 50px;
+	border: 3px solid #fff;
+}
+/*letra "x" para cerrar la página flotante*/
+.cerrar {
+    position: relative;
+	float: right;
+    color: #981516;
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+	margin: 0px 3px -19px 0px;
+	z-index: 1;
+}
+.cerrar:hover,
+.cerrar:focus {
+    color: red;
+    cursor: pointer;
+}
